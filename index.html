@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM ASSIGNMENT</title>
+</head>
+
+<body>
+    <h1>USER REGISTRATIN FORM</h1>
+    <form>
+        <p>
+            First Name:
+            <input name="First name" placeholder="First Name" required type="text" />
+            <br />
+        </p>
+        <p>
+            Last Name:
+            <input type="text" name="Last Name" placeholder="Last Name" required type="text" />
+            <br />
+        </p>
+        <p>
+            Password:
+            <input type="password" name="Password" placeholder="Password" required type="number" />
+            <br />
+        </p>
+        <p>
+            Bio:
+            <textarea name="Bio" placeholder="Comment" required type="text"></textarea>
+        </p>
+        <p>
+        <fieldset>
+            <legend>Gender:</legend>
+            <p><input type="radio" name="Gender" value="Male"> Male</p>
+
+            <p><input type="radio" name="Gender" value="Female"> Female</p>
+
+            <p><input type="radio" name="Gender" value="Other"> Other</p>
+
+        </fieldset>
+        <fieldset>
+            <legend>Interest:</legend>
+            <p>
+                <input type="checkbox" name="Interest"> Music
+            </p>
+            <p>
+                <input type="checkbox" name="Interest"> Sport
+            </p>
+            <p>
+                <input type="checkbox" name="Interest"> Reading
+            </p>
+        </fieldset>
+        </p>
+        <p>Country:
+        <select name="Country">
+            <option value="Pakistan">Pakistan</option>
+            <option value="India">India</option>
+            <option value="Afghanistan">Afghanistan</option>
+            <option value="America">America</option>
+            <option value="China">China</option>
+            <option value="Indonesia">Indonesia</option>
+        </select>
+        </p>
+        <p>
+            Preffered Colors:
+            <select name="Colors">
+                <option value="Red">Red</option>
+                <option value="yellow">yellow</option>
+                <option value="Green">Green</option>
+                <option value="Blue">Blue</option>
+            </select>
+        </p>
+        <p>
+            Profile Picture:
+            <input type="file" name="file">
+        </p>
+        <label for="user name">BirthDate:</label>
+        <input type="date">
+        <p>
+            Email:
+            <input type="email'" name="email" placeholder="Enter your Email">
+        </p>
+        <p>
+            Website:
+            <input type="url" name="Website link" placeholder="url">
+        </p>
+        <p>
+            Search:
+            <input type="search" name="search" placeholder="search">
+        </p>
+        <p>
+            <button>Submit</button>
+        </p>
+    </form>
+</body>
+
+</html>
